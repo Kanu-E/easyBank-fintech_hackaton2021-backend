@@ -1,24 +1,14 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
 
-Things you may want to cover:
+This Rails API is configured to send data to Easybank Fintech Frontend. It houses all of the data for data, users and transactions and cards. It feeds data to the front end apps via fetch requests. It is built in rails 6. 
 
-* Ruby version
+once you have forked this code
 
-* System dependencies
+In your terminal, enter:
 
-* Configuration
+```bash
+rails s
+```
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+This will run the server and give you access to the API
